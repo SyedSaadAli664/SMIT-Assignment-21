@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    font-family: "Poppins", sans-serif;
+}
+
+
+.main{
+    width: 500px;
+    /* background-color: aquamarine; */
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  margin-top: 30px;
+  padding: 30px;
+}
+
+.main h1{
+    /* font-size:  50px; */
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.main input{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid black;
+
+}
+
+.main_btn button{
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+
+#todoFather{
+    width: 70%;
+    margin: 0 auto;
+
+}
+ol{
+    list-style-type: none;
+}
+.List_ed{
+  margin: 0 auto;
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.edBTN{
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+}
+.edBTN:hover{
+    opacity: 1;
+    background-color: lightblue;
+    color: white;
+}
+
+
+
+.close {
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+    border: none;
+    border-radius: 20px;
+  }
+  .close:hover {
+    opacity: 1;
+    background-color: red;
+    color: white;
+  }
+  .close:before, .close:after {
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+  
+
+/* CSS */
+.button-1 {
+  background-color: #4a934a;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  /* font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  /* width: 30px; */
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #5cb85c;
+}
+
+
+
+.button-2 {
+    background-color: #dc143c;
+    border-radius: 8px;
+    border: none;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    /* font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-2:hover,
+  .button-2:focus {
+    background-color: #ff0000;
+  }
